@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modul 8 | Monitoring Pemulihan Sumatera</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress-shell" aria-hidden="true">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">↗</span>
+      <span>Modul 8 | Monitoring Pemulihan</span>
+    </div>
+
+    <nav class="nav-actions" aria-label="Navigasi slide">
+      <button class="pill" id="prevBtn" type="button" aria-label="Slide sebelumnya">←</button>
+      <span class="pill hide-mobile" id="pageNow">1 / 18</span>
+      <button class="pill" id="nextBtn" type="button" aria-label="Slide berikutnya">→</button>
+    </nav>
+  </header>
+
+  <main class="story" id="story">
+<section class="slide" id="slide-1" data-slide="1" style="margin-top: -40px;">
+      <div class="slide-inner">
+        <section>
+          <div class="eyebrow">KONDISI SUMATERA TERKINI</div>
+          <div class="hero-metric">
+            <span class="hero-number">5 Bulan</span>
+          </div>
+          <h1 style="font-size: 45px;">Setelah Bencana Hidrologi: Seberapa Pulih Sumatera Kini?</h1>
+          <p class="sub" style="min-width: 450px;">Dari akses jalan yang pernah terputus, genangan yang masih tertinggal, hingga hijaunya vegetasi yang pelan-pelan kembali.</p>
+          <div class="stat-grid">
+    <div class="stats-wrapper">
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2);">5 Bulan</span>
+        <span class="stat-label">Fase pemulihan dari Januari hingga Mei 2026.</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--orange);">75 Kab/Kota</span>
+        <span class="stat-label">
+          di Provinsi Aceh, Sumatera Utara, Sumatera Barat.
+        </span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2);">90% Pulih</span>
+        <span class="stat-label">Beberapa wilayah masih memerlukan perhatian.</span>
+      </div>
+    </div>
+        </section>
+        <div class="hero-map-wrap" style="margin-top: 40px;">
+          
+    <div class="map-card light" data-map-mode="recovery">
+      <div id="map-01" class="leaflet-map" data-map-mode="recovery" data-map-dark="0"></div>
+      <div class="map-head">
+        <span class="map-label">PETA 3 PROVINSI TERDAMPAK BENCANA</span>
+        <span class="north">N</span>
+      </div>
+      <div class="map-legend">
+    <span class="legend-item">
+      <span class="swatch" style="background:#D72E38"></span>Kritis
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#F47B2F"></span>Parah
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#FFD685"></span>Sedang
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#168573"></span>Pulih
+    </span>
+  </div>
+    </div>
+        </div>
+      </div>
+    <div class="slide-count">01 / 18</div></section>
+
+<section class="slide" id="slide-2" data-slide="2">
+      <div class="slide-inner single">
+        
+    <section class="copy-block">
+      <div class="eyebrow">Konteks Bencana</div>
+      <h2>Pemulihan Tidak Sesederhana Angka.</h2>
+      <p class="sub">Pemulihan terlihat dari air yang pergi, tanah yang mengering, jalan yang terbuka, rumah yang kembali dihuni, lampu yang menyala, dan alam yang kembali hijau.</p>
+    </section>
+  
+        <div class="timeline">
+          <div class="time-node"><strong>Nov 2025</strong><span>Serangkaian bencana hidrometeorologi berupa banjir bandang, luapan sungai, dan tanah longsor menerjang wilayah utara dan tengah Pulau Sumatera.</span></div>
+          <div class="time-node"><strong>Des 2025</strong><span>Pemerintah provinsi menetapkan Status Tanggap Darurat selama 14 hari setelah banjir memutus akses jalan, jembatan, dan listrik, serta mengisolasi sejumlah desa dan memaksa puluhan ribu warga mengungsi.</span></div>
+          <div class="time-node"><strong>Jan 2026</strong><span>Ratusan ribu korban bencana masih bertahan di tenda darurat. Korban meninggal mencapai 1.199 jiwa, sementara lebih dari 107 ribu hektare sawah rusak tertimbun lumpur.</span></div>
+          <div class="time-node"><strong>Feb 2026</strong><span>Sejumlah wilayah mulai berangsur pulih seiring percepatan rehabilitasi pascabencana untuk memulihkan jalan, listrik, dan fasilitas umum.</span></div>
+          <div class="time-node"><strong>Saat Ini</strong><span>Pengungsi terus berkurang seiring fokus pemulihan yang kini diarahkan pada pembersihan lumpur, pembangunan jembatan permanen, dan pemulihan ekonomi.</span></div>
+        </div>
+        <p class="sub-timeline">Untuk melihat sejauh mana wilayah terdampak telah pulih dari sisi ekosistem, ekonomi, dan infrastruktur, berikut Indikator Monitoring Pemulihan yang digunakan: </p>
+        <div class="questions">
+          <div class="question-card"><span class="q-tag" style="background:var(--teal-2)"><strong>Indikator 1</strong></span><b>Pemulihan Vegetasi</b><small>Pulihnya vegetasi menandai stabilnya tanah dan menurunnya risiko longsor.</small></div>
+          <div class="question-card"><span class="q-tag" style="background:var(--ink)"><strong>Indikator 2</strong></span><b>Pemulihan Intensitas Cahaya Malam</b><small>Cahaya malam menjadi tanda pulihnya listrik dan aktivitas ekonomi.</small></div>
+          <div class="question-card"><span class="q-tag" style="background:var(--blue)"><strong>Indikator 3</strong></span><b>Status Genangan Residual</b><small>Menunjukkan seberapa jauh genangan telah surut.</small></div>
+          <div class="question-card"><span class="q-tag" style="background:var(--orange)"><strong>Indikator 4</strong></span><b>Pemulihan Akses Jalan</b><small>Akses jalan yang pulih menghidupkan kembali aktivitas warga.</small></div>
+          <div class="question-card"><span class="q-tag" style="background:var(--red)"><strong>Indikator 5</strong></span><b>Pemulihan Kondisi Bangunan</b><small>Perubahan atap bangunan menjadi indikasi rekonstruksi wilayah.</small></div>
+          <div class="question-card"><span class="q-tag" style="background:var(--teal-dark)"><strong>Indikator 6</strong></span><b>Pemulihan Kelembaban Tanah</b><small>Tanah pascabanjir tetap rawan longsor meski air telah surut.</small></div>
+        </div>
+      </div>
+    <div class="slide-count">02 / 18</div></section>
+
+<section class="slide" id="slide-3" data-slide="3"><div class="slide-inner">
+    <section class="copy-block">
+      <div class="eyebrow">GENANGAN RESIDUAL - INDIKATOR 3</div>
+      <div class="hero-metric">
+        <span class="hero-number">Air Surut</span>
+      </div>
+      <h2>
+      Tetapi Genangan Residual Masih Tertinggal.
+      </h2>
+      <p class="sub">
+        Citra Sentinel-1 menunjukkan wilayah yang masih
+        menyimpan genangan hingga Mei 2026.
+        Semakin besar area oranye,
+        semakin lambat pemulihan berlangsung.
+      </p>
+    </section>
+  
+    <div class="map-carousel-wrapper" id="slide3-carousel">
+      <div class="map-carousel">
+        <!-- Mode 1: Data Recovery -->
+        <div class="map-carousel-item active">
+          <div class="map-card light" data-map-mode="recovery">
+            <div id="map-02-1" class="leaflet-map" data-map-mode="recovery" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA SURUTNYA GENANGAN (%)</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#D72E38"></span>Kritis
+              </span>
+              <span class="legend-item">
+                <span class="swatch" style="background:#F47B2F"></span>Parah
+              </span>
+              <span class="legend-item">
+                <span class="swatch" style="background:#FFD685"></span>Sedang
+              </span>
+              <span class="legend-item">
+                <span class="swatch" style="background:#168573"></span>Pulih
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 2: Flood Peak -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="flood-peak">
+            <div id="map-02-2" class="leaflet-map" data-map-mode="flood-peak" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA GENANGAN PUNCAK BANJIR</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#D72E38"></span>Genangan puncak
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 3: Flood Receding -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="flood-receding">
+            <div id="map-02-3" class="leaflet-map" data-map-mode="flood-receding" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA GENANGAN SURUT</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#F47B2F"></span>Genangan surut
+              </span>
+              <span class="legend-item">
+                <span class="swatch-line"></span>Batas wilayah
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 4: Flood Residual -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="flood">
+            <div id="map-02-4" class="leaflet-map" data-map-mode="flood" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA GENANGAN RESIDUAL</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#6FA1C9"></span>Genangan residual
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-indicators">
+        <button class="indicator active" data-index="0" aria-label="Slide 1"></button>
+        <button class="indicator" data-index="1" aria-label="Slide 2"></button>
+        <button class="indicator" data-index="2" aria-label="Slide 3"></button>
+        <button class="indicator" data-index="3" aria-label="Slide 4"></button>
+      </div>
+    </div>
+  </div><div class="slide-count">03 / 18</div></section>
+
+<section class="slide" id="slide-4" data-slide="4">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">GENANGAN RESIDUAL - INDIKATOR 3</div>
+      <div class="hero-metric">
+        <span class="hero-number">68,47%</span>
+      </div>
+      <h2>Rata-rata Genangan Residual.</h2>
+      <p class="sub">
+        Dari total 15.094 hektare genangan saat puncak banjir,
+        sekitar 10.335 hektare masih terdeteksi sebagai
+        genangan residual hingga Mei 2026.
+      </p>
+
+      <p class="copy" style="margin-top: 12px;">
+        Rasio genangan residual mencapai 68,47%.
+        Artinya lebih dari separuh area terdampak
+        masih menyimpan genangan,
+        terutama di wilayah dataran rendah dan pesisir.
+      </p>
+    </section>
+  
+        <div class="panel">
+          <div class="stat-grid" style="margin-top: -2px;">
+    <div class="stat-card" style="width: 198px;">
+      <span class="stat-number" style="color:var(--teal-2);">15.094 ha</span>
+      <span class="stat-label">luas genangan puncak</span>
+    </div>
+  
+    <div class="stat-card" style="width: 198px;">
+      <span class="stat-number" style="color:var(--teal-2);">10.335 ha</span>
+      <span class="stat-label">luas genangan residual terkini</span>
+    </div>
+  
+    <div class="stat-card" style="width: 198px;">
+      <span class="stat-number" style="color:var(--teal-2);">90%</span>
+      <span class="stat-label">kab/kota dengan genangan residual tertinggi</span>
+    </div>
+  </div>
+          <div class="bar-list">
+    <div class="bar-row">
+      <span>Sumatera Barat</span>
+      <div class="bar-track">
+        <span class="bar-fill bad" style="--w:74%"></span>
+      </div>
+      <span>Kritis</span>
+    </div>
+
+    <div class="bar-row">
+      <span>Aceh</span>
+      <div class="bar-track">
+        <span class="bar-fill warn" style="--w:58%"></span>
+      </div>
+      <span>Parah</span>
+    </div>
+
+    <div class="bar-row">
+      <span>Sumatera Utara</span>
+      <div class="bar-track">
+        <span class="bar-fill mid" style="--w:43%"></span>
+      </div>
+      <span>Sedang</span>
+    </div>
+          <div class="callout"><p>Analisis genangan residual dilakukan menggunakan data radar Sentinel-1 melalui platform Google Earth Engine (GEE). Periode analisis mencakup fase puncak banjir pada 1 November 2025 hingga 31 Desember 2025 serta fase pemulihan pada 1 Januari 2026 hingga 23 Mei 2026. Dalam proses deteksi genangan, threshold -15 dB digunakan sebagai batas identifikasi area banjir pada citra radar karena menghasilkan pemetaan genangan yang paling stabil, luas, dan realistis.</p></div>
+        </div>
+      </div>
+    <div class="slide-count">04 / 18</div></section>
+
+<section class="slide" id="slide-5" data-slide="5">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">KELEMBABAN TANAH - INDIKATOR 6</div>
+      <div class="hero-metric">
+        <span class="hero-number">Tanah Pulih?</span>
+      </div>
+      <h2 style="font-size: 43px;">Zona Tanah Jenuh Menyusut Signifikan.</h2>
+      <p class="sub">Indikator 3 membaca air yang terlihat di permukaan. Sedangkan Indikator 6 membaca air yang tertahan di dalam tanah setelah banjir.</p>
+      <div class="mini-grid">
+
+  <div class="mini-card">
+    <span class="mini-title">Aceh</span>
+    <p style="font-size: 14px; margin-top: 2px;">
+      Zona jenuh sangat menyusut di Aceh bagian Timur.
+      Namun, masih tersisa area kritis di bagian Tengah dan Utara.
+    </p>
+  </div>
+
+  <div class="mini-card">
+    <span class="mini-title">
+      Sumatera Utara
+    </span>
+    <p style="font-size: 14px; margin-top: 2px;">
+      Zona jenuh hampir hilang sepenuhnya.
+    </p>
+  </div>
+
+  <div class="mini-card">
+    <span class="mini-title">
+      Sumatera Barat
+    </span>
+    <p style="font-size: 14px; margin-top: 2px;">
+      Zona jenuh hampir hilang sepenuhnya.
+    </p>
+  </div>
+
+</div>
+    </section>
+        <div class="map-carousel-wrapper" style="margin-top: 10px;" id="slide5-carousel">
+      <div class="map-carousel">
+        <!-- Mode 1: Soil Disaster -->
+        <div class="map-carousel-item active">
+          <div class="map-card light" data-map-mode="soil-disaster">
+            <div id="map-03-1" class="leaflet-map" data-map-mode="soil-disaster" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA KELEMBABAN TANAH | NOV - DES 2025</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#FFFFFF" border="1px solid #D9D9D9"></span>Normal
+              </span>
+              <span class="legend-item">
+                <span class="swatch" style="background:#6FA1C9"></span>Kelembaban Tinggi
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 2: Soil Recovery -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="soil-recovery">
+            <div id="map-03-2" class="leaflet-map" data-map-mode="soil-recovery" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA KELEMBABAN TANAH | APRIL 2026</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#FFFFFF" border="1px solid #D9D9D9"></span>Normal
+              </span>
+              <span class="legend-item">
+                <span class="swatch" style="background:#6FA1C9"></span>Kelembaban Tinggi
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 3: Soil Critical Z-Score -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="soil-critical">
+            <div id="map-03-3" class="leaflet-map" data-map-mode="soil-critical" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA ZONA KRITIS KELEMBABAN TANAH</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#6FA1C9"></span>Kelembaban Tinggi
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-indicators">
+        <button class="indicator active" data-index="0" aria-label="Slide 1"></button>
+        <button class="indicator" data-index="1" aria-label="Slide 2"></button>
+        <button class="indicator" data-index="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+      </div>
+    <div class="slide-count">05 / 18</div></section>
+
+<section class="slide" id="slide-6" data-slide="6">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">KELEMBABAN TANAH - INDIKATOR 6</div>
+      <div class="hero-metric">
+        <span class="hero-number">Tanah Stabil</span>
+      </div>
+      <h2>Risiko Longsor Menurun Signifikan</h2>
+      <p class="sub">Risiko longsor dihitung dari dua hal yaitu tanah sangat jenuh dan kemiringan lereng di atas 15°.</p>
+      <p class="copy">Saat puncak bencana,
+              beberapa lereng di Aceh
+              menunjukkan potensi longsor tinggi.
+
+              Memasuki fase pemulihan,
+              zona rawan longsor menyusut tajam.
+
+              Seluruh wilayah Sumatera Barat, Sumatera Utara, dan Aceh
+              kembali stabil
+              dan siap memasuki tahap  rekonstruksi infrastruktur secara menyeluruh.</p>
+    </section>
+  
+    <div class="map-carousel-wrapper" id="slide6-carousel">
+      <div class="map-carousel">
+        <!-- Mode 1: Landslide Disaster Nov-Des 2025 -->
+        <div class="map-carousel-item active">
+          <div class="map-card light" data-map-mode="landslide-disaster">
+            <div id="map-04-1" class="leaflet-map" data-map-mode="landslide-disaster" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA RISIKO LONGSOR | NOV - DES 2025</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#D72E38"></span>Risiko Longsor Tinggi
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 2: Landslide Recovery April 2025 -->
+        <div class="map-carousel-item">
+          <div class="map-card light" data-map-mode="landslide-recovery">
+            <div id="map-04-2" class="leaflet-map" data-map-mode="landslide-recovery" data-map-dark="0"></div>
+            <div class="map-head">
+              <span class="map-label">PETA RISIKO LONGSOR | APRIL 2025</span>
+              <span class="north">N</span>
+            </div>
+            <div class="map-legend">
+              <span class="legend-item">
+                <span class="swatch" style="background:#D72E38"></span>Risiko Longsor Tinggi
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-indicators">
+        <button class="indicator active" data-index="0" aria-label="Slide 1"></button>
+        <button class="indicator" data-index="1" aria-label="Slide 2"></button>
+      </div>
+    </div>
+      </div>
+    <div class="slide-count">06 / 18</div></section>
+
+    <section class="slide" id="slide-7" data-slide="7">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN AKSES JALAN - INDIKATOR 4</div>
+      <div class="hero-metric">
+        <span class="hero-number">2.058 km</span>
+      </div>
+      <h2>Akses jalan pernah terputus.</h2>
+      <p class="sub">Pemulihan tidak terasa nyata sampai jalan kembali bisa dilewati dan aktivitas manusia kembali berjalan diatasnya.</p>
+
+          <div class="stats-wrapper" style="margin-top: 25px; max-width: 700px;">
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2); font-size: 20px;">1900 km</span>
+        <span class="stat-label" style="font-size: 18px;">
+          Pulih
+        </span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--red); font-size: 20px;">100 km</span>
+        <span class="stat-label" style=" font-size: 18px;">
+          Terputus
+        </span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--orange); font-size: 20px;">58 km</span>
+        <span class="stat-label" style="font-size: 18px;">
+          Tergenang
+        </span>
+      </div>
+    </div>
+
+    </section>
+    
+        <div>
+          
+    <div class="map-card light" data-map-mode="road">
+      <div id="map-04" class="leaflet-map" data-map-mode="road" data-map-dark="0"></div>
+      <div class="map-head">
+        <span class="map-label">Peta Pemulihan Akses Jalan</span>
+        <span class="north">N</span>
+      </div>
+      <div class="map-legend">
+    <span class="legend-item">
+  <span class="swatch" style="background:#168573"></span>Pulih
+</span>
+<span class="legend-item">
+  <span class="swatch" style="background:#F47B2F"></span>Tergenang
+</span>
+<span class="legend-item">
+  <span class="swatch" style="background:#D72E38"></span>Terputus
+</span>
+  </div>
+    </div>
+        </div>
+      </div>
+    <div class="slide-count">07 / 18</div></section>
+
+<section class="slide" id="slide-8" data-slide="8">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN AKSES JALAN - INDIKATOR 4</div>
+      <div class="hero-metric">
+        <span class="hero-number">84%</span>
+      </div>
+      <h2>Akses Jalan Telah Pulih, Aceh Pulih Paling Cepat.</h2>
+      <p class="sub">Pemulihan akses jalan tidak terjadi merata di tiga provinsi terdampak.
+    Aceh menunjukkan pemulihan paling cepat, sementara Sumatera Barat dan Sumatera Utara masih perlu perhatian.</p>
+      <p class="copy">Aceh mencatat pemulihan akses jalan sebesar 84,0%, diikuti oleh Sumatera Utara 65,1%, dan Sumatera Barat pada 54,1%.</p>
+    </section>
+  
+        <div class="panel">
+          <h3 style="font-size: 28px; font-family: var(--font-sub); color: var(--teal-dark); margin-bottom: 30px;">Pemulihan akses jalan per Provinsi</h3>
+          <div class="bar-list">
+    <div class="bar-row">
+      <span>Aceh</span>
+      <div class="bar-track"><span class="bar-fill good" style="--w:84%"></span></div>
+      <span>84,0%</span>
+    </div>
+
+    <div class="bar-row">
+      <span>Sumatera Utara</span>
+      <div class="bar-track"><span class="bar-fill warn" style="--w:65.1%"></span></div>
+      <span>65,1%</span>
+    </div>
+
+    <div class="bar-row">
+      <span>Sumatera Barat</span>
+      <div class="bar-track"><span class="bar-fill warn" style="--w:54.1%"></span></div>
+      <span>54,1%</span>
+    </div>
+  </div>
+
+          <div class="road-category-block">
+  <h3 style="font-size: 28px; font-family: var(--font-sub); color: var(--teal-dark); margin-bottom: 30px;">Komposisi kategori jalan terdampak per Provinsi</h3>
+
+  <div class="road-stack-row">
+    <span>Aceh</span>
+    <div class="road-stack">
+      <i style="--w:42%; background:var(--teal)"></i>
+      <i style="--w:28%; background:var(--orange)"></i>
+      <i style="--w:18%; background:var(--blue)"></i>
+      <i style="--w:12%; background:var(--red)"></i>
+    </div>
+  </div>
+
+  <div class="road-stack-row">
+    <span>Sumatera Utara</span>
+    <div class="road-stack">
+      <i style="--w:35%; background:var(--teal)"></i>
+      <i style="--w:30%; background:var(--orange)"></i>
+      <i style="--w:20%; background:var(--blue)"></i>
+      <i style="--w:15%; background:var(--red)"></i>
+    </div>
+  </div>
+
+  <div class="road-stack-row">
+    <span>Sumatera Barat</span>
+    <div class="road-stack">
+      <i style="--w:25%; background:var(--teal)"></i>
+      <i style="--w:35%; background:var(--orange)"></i>
+      <i style="--w:24%; background:var(--blue)"></i>
+      <i style="--w:16%; background:var(--red)"></i>
+    </div>
+  </div>
+
+  <div class="road-stack-legend">
+    <span><b style="background:var(--teal)"></b>Residential</span>
+    <span><b style="background:var(--orange)"></b>Primary</span>
+    <span><b style="background:var(--blue)"></b>Secondary</span>
+    <span><b style="background:var(--red)"></b>Tertiary</span>
+  </div>
+</div>
+        </div>
+      </div>
+    <div class="slide-count">08 / 18</div></section>
+
+<section class="slide" id="slide-9" data-slide="9">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN KONDISI BANGUNAN - INDIKATOR 5</div>
+      <div class="hero-metric">
+        <span class="hero-number"  style="font-size: 4.2rem; margin-bottom: 10px;">Tempat Tinggal</span>
+      </div>
+      <h2>Ada Rumah untuk Pulang?</h2>
+      <p class="sub">Jalan bisa terbuka lebih dulu.
+    Tapi pemulihan baru benar-benar terasa
+    ketika rumah, sekolah,
+    kios, dan fasilitas layanan publik
+    bisa kembali digunakan.</p>
+      <p class="copy">Indikator R-5 membaca pemulihan fisik bangunan dari citra Sentinel-2
+        dan Google Open Buildings. Bangunan dianggap pulih
+        ketika area terbangun
+        mulai kembali mendekati
+        kondisi normal sebelum bencana.</p>
+    </section>
+  
+        <div>
+          
+    <div class="map-card light" data-map-mode="building">
+      <div id="map-05" class="leaflet-map" data-map-mode="building" data-map-dark="0"></div>
+      <div class="map-head">
+        <span class="map-label">PETA PEMULIHAN KONDISI BANGUNAN</span>
+        <span class="north">N</span>
+      </div>
+      <div class="map-legend">
+    <span class="legend-item">
+      <span class="swatch" style="background:#D72E38"></span>Kritis
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#F47B2F"></span>Parah
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#FFD685"></span>Sedang
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#168573"></span>Pulih
+    </span>
+  </div>
+    </div>
+
+        </div>
+      </div>
+    <div class="slide-count">09 / 18</div></section>
+
+<section class="slide" id="slide-10" data-slide="10">
+  <div class="slide-inner">                           
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN KONDISI BANGUNAN - INDIKATOR 5</div>
+
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px; ">75,1%</span>
+      </div>
+
+      <h2 style="font-size: 2.7rem;">Rata-rata Pemulihan Bangunan, Menguat Hingga Mei.</h2>
+
+      <p class="sub">
+        Tren pemulihan kondisi bangunan bergerak naik secara serentak pada akhir periode pemantauan.
+      </p>
+
+      <p class="copy">
+        Dari agregasi bulanan tiga provinsi, rata-rata gabungan pemulihan bangunan
+        meningkat dari 69,4% pada Januari menjadi 75,1% pada Mei 2026.
+        Pada bulan terakhir, Aceh mencatat pemulihan tertinggi, disusul
+        Sumatera Barat dan Sumatera Utara.
+      </p>
+    </section>
+
+    <div class="panel r5-trend-panel">
+      <h3 style="font-family: var(--font-sub); color: var(--teal-dark); font-size: 28px;">Tren bulanan pemulihan bangunan</h3>
+
+      <div class="chart r5-chart-wrap">
+        <canvas id="r5TrendChart" aria-label="Line chart tren pemulihan bangunan Jan sampai Mei 2026" role="img"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-count">10 / 18</div>
+</section>
+
+<section class="slide" id="slide-11" data-slide="11">
+  <div class="slide-inner r2-layout">
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN INTENSITAS CAHAYA MALAM - INDIKATOR 2</div>
+
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px; font-size: 4.1rem;">Lampu Menyala</span>
+      </div>
+
+      <h2 style="font-size: 2.5rem;">Tanda Aktivitas Mulai Kembali.</h2>
+
+      <p class="sub">
+        Intensitas cahaya malam menjadi sinyal tidak langsung untuk membaca pulihnya listrik, mobilitas, dan aktivitas ekonomi setelah bencana.
+        Semakin terang wilayah, semakin kuat
+        indikasi aktivitas malam telah pulih.
+      </p>
+
+      <div class="stats-wrapper" style="margin-top: 10px;">
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2);">Baseline</span>
+        <span class="stat-label">Intensitas cahaya malam Maret–Mei 2025</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2);">Current</span>
+        <span class="stat-label">
+          Intensitas cahaya malam April 2026
+        </span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" style="color:var(--teal-2);">Recovery</span>
+        <span class="stat-label" style="display:flex; align-items:center; justify-content:center; gap:6px; flex-wrap:wrap; line-height:1.2;">
+          <span style="display:inline-flex; flex-direction:column; align-items:center; text-align:center;">
+            <span>Baseline</span>
+            <span style="border-top:1px solid currentColor; padding-top:2px;">Current</span>
+          </span>
+          <span>× 100</span>
+        </span>
+      </div>
+    </div>
+    </section>
+
+    <div class="r2-visual-stack">
+      <div class="map-card dark r2-night-card" data-map-mode="night">
+        <div id="map-r2-night" class="leaflet-map" data-map-mode="night" data-map-dark="1"></div>
+
+        <div class="map-head">
+          <span class="map-label">PETA INTENSITAS CAHAYA MALAM</span>
+          <span class="north">N</span>
+        </div>
+
+        <div class="map-legend">
+          <span class="legend-item">
+            <span class="swatch" style="background:#D72E38"></span>Redup
+          </span>
+          <span class="legend-item">
+            <span class="swatch" style="background:#F47B2F"></span>Mulai pulih
+          </span>
+          <span class="legend-item">
+            <span class="swatch" style="background:#FFD685"></span>Mendekati normal
+          </span>
+          <span class="legend-item">
+            <span class="swatch" style="background:#168573"></span>Melebihi baseline
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-count">11 / 18</div>
+</section>
+
+<section class="slide" id="slide-12" data-slide="12">
+  <div class="slide-inner r2-layout">
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN INTENSITAS CAHAYA MALAM - INDIKATOR 2</div>
+
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px;">68%</span>
+      </div>
+
+      <h2>Recovery Intensitas Cahaya Malam Terendah</h2>
+
+      <p class="sub">
+        Beberapa Kab/Kota sudah melampaui baseline atau nilai recovery lebih dari 100%, tetapi wilayah dengan cahaya malam terendah
+        justru menjadi sinyal prioritas pemulihan.
+      </p>
+      
+      <p class="copy">
+        Nilai recovery di bawah 100% menandakan wilayah belum pulih sepenuhnya. Nilai 100% menunjukkan kondisi telah kembali seperti sebelum bencana, sedangkan di atas 100% berarti kondisinya sudah lebih baik dari sebelum bencana.
+      </p>
+    </section>
+
+<div class="panel r2-ranking-panel" id="r2ProvinceCarousel">
+  <div class="r2-panel-head">
+      <h3 style="font-family: var(--font-sub); color: var(--teal-dark); font-size: 28px;">Pemulihan Intensitas Cahaya Malam</h3>
+  </div>
+
+  <div class="r2-province-carousel">
+    <div class="r2-province-track">
+
+      <!-- ACEH -->
+      <article class="r2-province-slide active" style="margin-bottom: 0;">
+        <div class="r2-province-title">
+            <b>> Aceh</b>
+        </div>
+
+        <div class="r2-rank-stack">
+          <div class="r2-rank-section">
+            <div class="r2-rank-label good">3 Tertinggi</div>
+
+            <div class="r2-bar-row">
+              <span>Sabang</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill peak" style="--w:84%"></i>
+              </div>
+              <b>126%</b>
+            </div>
+
+            <div class="r2-bar-row">
+              <span>Banda Aceh</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill peak" style="--w:78.7%"></i>
+              </div>
+              <b>118%</b>
+            </div>
+
+            <div class="r2-bar-row">
+              <span>Aceh Besar</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill peak" style="--w:68.7%"></i>
+              </div>
+              <b>103%</b>
+            </div>
+          </div>
+
+          <div class="r2-rank-divider"></div>
+
+          <div class="r2-rank-section priority">
+            <div class="r2-rank-label bad">3 Terendah</div>
+
+            <div class="r2-bar-row priority">
+              <span>Aceh Utara</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill low" style="--w:45.3%"></i>
+              </div>
+              <b>68%</b>
+            </div>
+
+            <div class="r2-bar-row priority">
+              <span>Aceh Tamiang</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill low" style="--w:48%"></i>
+              </div>
+              <b>72%</b>
+            </div>
+
+            <div class="r2-bar-row">
+              <span>Lhokseumawe</span>
+              <div class="r2-bar-track">
+                <i class="r2-bar-fill stable" style="--w:57.3%"></i>
+              </div>
+              <b>86%</b>
+            </div>
+          </div>
+          <div class="r2-baseline-note">
+              <span></span>
+              100% atau Setara Baseline
+            </div>
+        </div>
+      </article>
+
+      <!-- SUMATERA UTARA -->
+      <article class="r2-province-slide is-pending">
+        <div class="r2-province-title">
+          <div>
+            <b>> Sumatera Utara</b>
+            <small>Template siap diisi saat data tersedia</small>
+          </div>
+        </div>
+
+        <div class="r2-empty-state">
+          <b>Data Sumatera Utara belum dimasukkan</b>
+          <span>
+            Setelah data tersedia, panel ini akan menampilkan 3 kab/kota dengan
+            recovery tertinggi dan 3 kab/kota dengan recovery terendah.
+          </span>
+
+          <div class="r2-skeleton-list">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </article>
+
+      <!-- SUMATERA BARAT -->
+      <article class="r2-province-slide is-pending">
+        <div class="r2-province-title">
+          <div>
+            <b>> Sumatera Barat</b>
+            <small>Template siap diisi saat data tersedia</small>
+          </div>
+        </div>
+
+        <div class="r2-empty-state">
+          <b>Data Sumatera Barat belum dimasukkan</b>
+          <span>
+            Panel ini akan memakai struktur yang sama: top 3 tertinggi,
+            bottom 3 terendah, dan garis baseline 100%.
+          </span>
+
+          <div class="r2-skeleton-list">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="r2-carousel-dots" style="margin-top: 20px; font-family: var(--font-body);">
+    <button class="active" type="button" data-r2-index="0" style="font-family: var(--font-body);">Aceh</button>
+    <button type="button" data-r2-index="1" style="font-family: var(--font-body);">Sumut</button>
+    <button type="button" data-r2-index="2" style="font-family: var(--font-body);">Sumbar</button>
+  </div>
+</div>
+  </div>
+
+  <div class="slide-count">12 / 18</div>
+</section>
+
+
+<section class="slide" id="slide-13" data-slide="13"><div class="slide-inner">
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN VEGETASI - INDIKATOR 1</div>
+
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px;">Kembali Hijau</span>
+      </div>
+
+      <h2>Tapi Tidak Secara Serentak</h2>
+      <p class="sub">Vegetasi pulih lebih lambat dibanding jalan, bangunan, atau intensitas cahaya malam. NDVI membantu membaca apakah tutupan lahan dan ekosistem
+        mulai kembali stabil setelah bencana..</p>
+      
+      <div class="stat-card" style="margin-top: 20px; min-width: 445px; display:flex; justify-content:center; text-align:center;">
+        <span class="stat-number" style="color:var(--teal-2);">Formula</span>
+        <span class="stat-label" style="display:flex; align-items:center; gap:8px; justify-content:center;">
+          <span style="padding:7px 4px">NDVI Recovery =</span>
+          <span style="display:inline-grid; text-align:center; line-height:1.1; min-width:180px;">
+            <span style="border-bottom:1px solid currentColor; padding:7px 4px;">Baseline − Impact</span>
+            <span style="padding:7px 4px;">Current − Impact</span>
+          </span>
+          <span style="padding:7px">× 100</span>
+        </span>
+      </div>
+    </section>
+  
+    <div class="map-card light" data-map-mode="veg">
+      <div id="map-07" class="leaflet-map" data-map-mode="veg" data-map-dark="0"></div>
+      <div class="map-head">
+        <span class="map-label">NDVI RECOVERY</span>
+        <span class="north">N</span>
+      </div>
+      <div class="map-legend">
+    <span class="legend-item">
+      <span class="swatch" style="background:#D72E38"></span>Kritis
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#F47B2F"></span>Parah
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#FFD685"></span>Sedang
+    </span>
+    <span class="legend-item">
+      <span class="swatch" style="background:#168573"></span>Pulih
+    </span>
+  </div>
+    </div>
+  </div><div class="slide-count">13 / 18</div></section>
+
+<section class="slide" id="slide-14" data-slide="14">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">PEMULIHAN VEGETASI - INDIKATOR 1</div>
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px;">62,9%</span>
+      </div>
+      <h2>Rata-rata Pemulihan Vegetasi</h2>
+      <p class="sub"> Secara agregat, tiga provinsi sudah masuk kategori baik.
+        Namun, pemulihan vegetasi di tingkat kabupaten/kota masih menunjukkan
+        kontras yang tajam.</p>
+      <p class="copy">Aceh mencatat rata-rata pemulihan tertinggi sebesar 62,9%,
+        diikuti Sumatera Utara 56,6% dan Sumatera Barat 55,3%.
+        Titik perhatian utama berada pada wilayah dengan recovery paling rendah,
+        terutama Padang Lawas Utara, Padang Pariaman, dan Aceh Tamiang.</p>
+    </section>
+  
+
+    <div class="panel r2-ranking-panel" id="r1ProvinceCarousel">
+  <div class="r2-panel-head">
+      <h3 style="font-family: var(--font-sub); color: var(--teal-dark); font-size: 28px;">Pemulihan Vegetasi (NDVI Recovery)</h3>
+  </div>
+
+ <div class="r1-province-carousel">
+        <div class="r1-province-track">
+
+          <!-- ACEH -->
+          <article class="r1-province-slide active">
+            <div class="r1-province-title">
+              <b>&gt; Aceh</b>
+            </div>
+
+            <div class="r1-rank-stack">
+              <div class="r1-rank-section">
+                <div class="r1-rank-label good">3 Tertinggi</div>
+
+                <div class="r1-bar-row">
+                  <span>Sabang</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill peak" style="--w:79.4%"></i>
+                  </div>
+                  <b>79,4%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Pidie</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill peak" style="--w:77.4%"></i>
+                  </div>
+                  <b>77,4%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Simeulue</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill peak" style="--w:77.2%"></i>
+                  </div>
+                  <b>77,2%</b>
+                </div>
+              </div>
+
+              <div class="r1-rank-divider"></div>
+
+              <div class="r1-rank-section priority">
+                <div class="r1-rank-label bad">3 Terendah</div>
+
+                <div class="r1-bar-row priority">
+                  <span>Aceh Tamiang</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:46.6%"></i>
+                  </div>
+                  <b>46,6%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Bener Meriah</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:51.1%"></i>
+                  </div>
+                  <b>51,1%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Lhokseumawe</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:53.9%"></i>
+                  </div>
+                  <b>53,9%</b>
+                </div>
+              </div>
+
+              <div class="r1-baseline-note">
+                <span></span>
+                50–75% = kategori baik
+              </div>
+            </div>
+          </article>
+
+          <!-- SUMATERA UTARA -->
+          <article class="r1-province-slide">
+            <div class="r1-province-title">
+              <b>&gt; Sumatera Utara</b>
+            </div>
+
+            <div class="r1-rank-stack">
+              <div class="r1-rank-section">
+                <div class="r1-rank-label good">3 Tertinggi</div>
+
+                <div class="r1-bar-row">
+                  <span>Pakpak Barat</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill peak" style="--w:77.8%"></i>
+                  </div>
+                  <b>77,8%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Karo</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:69.8%"></i>
+                  </div>
+                  <b>69,8%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Nias Utara</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:66.4%"></i>
+                  </div>
+                  <b>66,4%</b>
+                </div>
+              </div>
+
+              <div class="r1-rank-divider"></div>
+
+              <div class="r1-rank-section priority">
+                <div class="r1-rank-label bad">3 Terendah</div>
+
+                <div class="r1-bar-row priority">
+                  <span>Padang Lawas Utara</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:16.4%"></i>
+                  </div>
+                  <b>16,4%</b>
+                </div>
+
+                <div class="r1-bar-row priority">
+                  <span>Dairi</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:46.2%"></i>
+                  </div>
+                  <b>46,2%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Tapanuli Tengah</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:50.7%"></i>
+                  </div>
+                  <b>50,7%</b>
+                </div>
+              </div>
+
+              <div class="r1-baseline-note">
+                <span></span>
+                &lt;25% = prioritas intervensi
+              </div>
+            </div>
+          </article>
+
+          <!-- SUMATERA BARAT -->
+          <article class="r1-province-slide">
+            <div class="r1-province-title">
+              <b>&gt; Sumatera Barat</b>
+            </div>
+
+            <div class="r1-rank-stack">
+              <div class="r1-rank-section">
+                <div class="r1-rank-label good">3 Tertinggi</div>
+
+                <div class="r1-bar-row">
+                  <span>Padang</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:67.5%"></i>
+                  </div>
+                  <b>67,5%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Solok Selatan</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:66.7%"></i>
+                  </div>
+                  <b>66,7%</b>
+                </div>
+
+                <div class="r1-bar-row">
+                  <span>Kep. Mentawai</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill stable" style="--w:62.5%"></i>
+                  </div>
+                  <b>62,5%</b>
+                </div>
+              </div>
+
+              <div class="r1-rank-divider"></div>
+
+              <div class="r1-rank-section priority">
+                <div class="r1-rank-label bad">3 Terendah</div>
+
+                <div class="r1-bar-row priority">
+                  <span>Padang Pariaman</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:36.2%"></i>
+                  </div>
+                  <b>36,2%</b>
+                </div>
+
+                <div class="r1-bar-row priority">
+                  <span>Dharmasraya</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:41.6%"></i>
+                  </div>
+                  <b>41,6%</b>
+                </div>
+
+                <div class="r1-bar-row priority">
+                  <span>Agam</span>
+                  <div class="r1-bar-track">
+                    <i class="r1-bar-fill low" style="--w:48.2%"></i>
+                  </div>
+                  <b>48,2%</b>
+                </div>
+              </div>
+
+              <div class="r1-baseline-note">
+                <span></span>
+                75–100% = kategori tinggi
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="r1-carousel-dots">
+        <button class="active" type="button" data-r1-index="0">Aceh</button>
+        <button type="button" data-r1-index="1">Sumut</button>
+        <button type="button" data-r1-index="2">Sumbar</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slide-count">14 / 18</div>
+</section>
+
+<section class="slide" id="slide-15" data-slide="15">
+      <div class="slide-inner single">
+        
+    <section class="copy-block">
+      <div class="eyebrow">Sintesis Pemulihan</div>
+      <h2>Bukan Hanya Satu Tanda, Pemulihan Dibaca dari Gabungan Beberapa Sinyal.</h2>
+      <p class="sub">Setiap indikator membaca sisi pemulihan yang berbeda: air yang surut,
+  tanah yang stabil, jalan yang terbuka, bangunan yang kembali, aktivitas malam,
+  dan vegetasi yang pulih.</p>
+      <p p class="sub-timeline" style="margin-top: 10px;"> Scorecard 3×6 berikut merangkum kondisi Aceh, Sumatera Utara, dan Sumatera Barat
+  pada enam indikator pemulihan. Tujuannya bukan hanya melihat siapa yang paling pulih,
+  tetapi menemukan wilayah yang masalahnya saling menumpuk dan membutuhkan
+  perhatian lintas sektor.</p>
+    </section>
+  
+        <div class="matrix" style="margin-top: -50px;">
+          <div class="head" style="color: var(--ink)">Provinsi</div>
+          <div class="head" style="color: var(--ink)">Indikator 1</div>
+          <div class="head" style="color: var(--ink)">Indikator 2</div><div class="head" style="color: var(--ink)">Indikator 3</div><div class="head" style="color: var(--ink)">Indikator 4</div><div class="head" style="color: var(--ink)">Indikator 5</div><div class="head" style="color: var(--ink)">Indikator 6</div>
+          
+            <div class="province" style="color: var(--ink)">Aceh</div>
+            <div class="status-mid">Kuning</div><div class="status-good">Hijau</div><div class="status-warn">Oranye</div><div class="status-good">Hijau</div><div class="status-mid">Kuning</div><div class="status-warn">Oranye</div>
+          
+            <div class="province" style="color: var(--ink)">Sumatera Utara</div>
+            <div class="status-mid">Kuning</div><div class="status-mid">Kuning</div><div class="status-mid">Kuning</div><div class="status-warn">Oranye</div><div class="status-mid">Kuning</div><div class="status-good">Hijau</div>
+          
+            <div class="province" style="color: var(--ink)">Sumatera Barat</div>
+            <div class="status-warn">Oranye</div><div class="status-mid">Kuning</div><div class="status-bad">Merah</div><div class="status-bad">Merah</div><div class="status-warn">Oranye</div><div class="status-good">Hijau</div>
+          
+        </div>
+      </div>
+    <div class="slide-count">15 / 18</div></section>
+
+<section class="slide" id="slide-16" data-slide="16">
+      <div class="slide-inner">
+        
+    <section class="copy-block">
+      <div class="eyebrow">Prioritas Intervensi</div>
+      <div class="hero-metric">
+        <span class="hero-number" style="margin-bottom: 10px;">Prioritas</span>
+      </div>
+      <h2>Muncul Saat Beberapa Risiko Bertemu.</h2>
+      <p class="sub">Wilayah prioritas bukan hanya yang memiliki satu indikator buruk,
+    tetapi wilayah yang menunjukkan tekanan berlapis pada lebih dari satu
+    dimensi pemulihan.</p>
+      <p class="copy">Perhatian utama diarahkan pada ilayah dengan beberapa sinyal pemulihan yang masih lemah. Semakin banyak sinyal lemah yang muncul bersamaan, semakin tinggi
+    kebutuhan intervensinya.</p>
+    </section>
+  
+        <div class="panel">
+          <h3 style="font-family: var(--font-sub); color: var(--teal-dark); font-size: 28px;">Daftar Wilayah Prioritas</h3>
+          <div class="priority-list">
+            
+              <div class="priority-item">
+                <div class="rank">1</div>
+                <div><b>Sumatera Barat</b><small>Genangan residual tinggi, akses jalan sangat kritis,dan pemulihan vegetasi belum merata</small></div>
+              </div>
+            
+              <div class="priority-item">
+                <div class="rank">2</div>
+                <div><b>Padang Lawas Utara</b><small>Pemulihan vegetasi hanya 16,4%</small></div>
+              </div>
+            
+              <div class="priority-item">
+                <div class="rank">3</div>
+                <div><b>Aceh Tamiang</b><small>Pemulihan vegetasi tertinggal dan indikasi dampak banjir masih kuat</small></div>
+              </div>
+            
+              <div class="priority-item">
+                <div class="rank">4</div>
+                <div><b>Dharmasraya</b><small>Genangan residual dan akses jalan perlu dipantau silang</small></div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    <div class="slide-count">16 / 18</div></section>
+
+<section class="slide" id="slide-17" data-slide="17">
+  <div class="slide-inner single">
+    <div class="cta-card">
+      <div class="eyebrow">PENUTUP</div>
+
+      <h1 style="font-size:clamp(48px,4.7vw,96px); max-width: 1080px;">
+        Pemulihan Bukan Garis Lurus.
+      </h1>
+
+      <p class="sub" style="max-width: 900px;">
+        Di sebagian tempat, air telah surut, jalan kembali terbuka,
+        bangunan mulai pulih, cahaya malam menyala, dan vegetasi tumbuh kembali.
+        Di tempat lain, tanda-tanda itu belum hadir bersamaan.
+      </p>
+
+      <p class="copy" style="max-width: 880px;">
+        Karena itu, pemulihan perlu dibaca sebagai kumpulan sinyal.
+        Bukan untuk mencari wilayah yang paling tertinggal semata,
+        tetapi untuk memastikan bantuan, rehabilitasi, dan rekonstruksi
+        diarahkan ke tempat yang paling membutuhkan.
+      </p>
+
+      <div class="chip-row" style="margin-top: 30px;">
+        <a class="pill" href="#slide-1">Ulangi cerita</a>
+        <button class="pill" id="dashboardBtn" type="button">Buka dashboard lengkap</button>
+      </div>
+
+      <p class="footer-note" style="max-width: 820px;">
+        Dashboard ini hanya desain awal, creator menerima segala kritik dan saran yang membangun -budi.
+      </p>
+    </div>
+  </div>
+
+  <div class="slide-count">Terima Kasih</div>
+</section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/boundaries.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+  (function(){
+    function labelFor(indicatorIndex, status){
+      switch(indicatorIndex){
+        case 1:
+        case 3:
+        case 5:
+          if(status==='bad') return 'Kritis';
+          if(status==='warn') return 'Parah';
+          if(status==='mid') return 'Sedang';
+          if(status==='good') return 'Pulih';
+          return '';
+        case 6:
+          return status==='good' ? 'Normal' : 'Kelembaban Tinggi';
+        case 4:
+          if(status==='bad') return 'Terputus';
+          if(status==='good') return 'Pulih';
+          return 'Tergenang';
+        case 2:
+          if(status==='bad') return 'Redup';
+          if(status==='warn') return 'Mulai Pulih';
+          if(status==='mid') return 'Mendekati Normal';
+          if(status==='good') return 'Melebihi Baseline';
+          return '';
+        default:
+          return '';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      const provinces = document.querySelectorAll('.matrix .province');
+      provinces.forEach((prov)=>{
+        let node = prov;
+        for(let i=1;i<=6;i++){
+          node = node.nextElementSibling;
+          if(!node) break;
+          const cls = Array.from(node.classList).find(c=>c.startsWith('status-')) || '';
+          const status = cls.replace('status-','');
+          const label = labelFor(i, status);
+          if(label) node.textContent = label;
+        }
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
